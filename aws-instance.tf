@@ -1,11 +1,11 @@
 variable "aws_ami_app_server" {
-    
+
   
 }
 
 provider "aws" {
     region = "us-east-1" 
-     
+    access_key = ""
 }
 
 resource "aws_instance" "websever" {
